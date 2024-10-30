@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   profile:string="Highly motivated and results-oriented Junior MEARN Stack Developer Recently graduated from the Faculty ofComputer and Information Sciences (FCIS), specializing in Bioinformatics.I successfully transitioned into theworld of web development through an intensive MEARN Stack internship at the Information Technology Institute(ITI). Seeking a challenging role to leverage my technical skills and contribute to innovative softwaresolutions."
-  CV:string="../../../public/assets/files/Wessam-Ahmed-CVpdf.pdf"
+  CV:string="../../../public/assets/files/Wessam-Ahmed-CV.pdf"
 }
