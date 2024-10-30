@@ -1,0 +1,99 @@
+
+.containerSkills {
+    background-color: rgb(24, 23, 23);
+    padding: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containerSkills .left{
+    float: left;
+    margin-top: 150px;
+    width: 45%; 
+    box-sizing: border-box; 
+}
+.containerSkills .right {
+    float: right;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 45%; 
+    box-sizing: border-box; 
+}
+
+.left h3 {
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
+
+.left hr {
+    width: 50%;
+    margin: 20px 0px; 
+    border-color: #ddd; 
+}
+
+.left ul {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left li {
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.skill-bar {
+    margin-bottom: 20px; 
+}
+
+.progress {
+    height: 25px;
+    background-color: #444; 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.progress-bar {
+    background-color: #ddd; 
+    border-radius: 5px;
+}
+
+.skill-label {
+    margin-bottom: 5px;
+    text-align: right;
+    font-weight: bold; 
+}
+
+@media (max-width: 768px) {
+    .containerSkills {
+        flex-direction: column; 
+    }
+
+    .containerSkills .left,
+    .containerSkills .right {
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .progress {
+        height: 20px; 
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .left h3 {
+        font-size: 24px;
+    }
+
+    .left li {
+        font-size: 18px; 
+    }
+}
